@@ -1,0 +1,15 @@
+{
+    "name": "forestviewer",
+    "version":"2",
+    "dependencies": [
+        "glfw3",
+        "glad",
+        "glm",
+        "freetype",
+        "stb",
+        {
+            "name":"imgui",
+            "features":["freetype","glfw-binding","opengl3-binding"]
+        }
+    ]
+}
